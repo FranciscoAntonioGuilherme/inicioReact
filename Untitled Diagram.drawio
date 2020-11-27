@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-27T03:16:21.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="eA1t1x06ABBgIS2yGO2Q" version="13.10.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-11-27T03:21:56.350Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="iZRPQ8cOBVrKMEXELLJ2" version="13.10.4" type="github" pages="5">
   <diagram id="AiVFg1ysWfB2jF8u1klc" name="Page-1">
     <mxGraphModel dx="1157" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -352,6 +352,26 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="640" y="346" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5E520rgOxWTw4wXhYuzn" name="Page-5">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="W6IbWmLAx6LdykrJJUCI-0" />
+        <mxCell id="W6IbWmLAx6LdykrJJUCI-1" parent="W6IbWmLAx6LdykrJJUCI-0" />
+        <mxCell id="W6IbWmLAx6LdykrJJUCI-3" value="CONTRATOS DE OPERAÇÂO" style="shape=partialRectangle;html=1;top=1;align=center;dashed=1;fontSize=12;" vertex="1" parent="W6IbWmLAx6LdykrJJUCI-1">
+          <mxGeometry y="20" width="800" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W6IbWmLAx6LdykrJJUCI-4" value="iniciarCadastro&lt;br&gt;OPERAÇAO: iniciarCadastro()&lt;br&gt;REFERENCIAS CRUZADAS: Caso de uso: buscarPaciente.&lt;br&gt;PRE-CONDICOES: Enfermeiro estar logado no sistema.&lt;br&gt;POS-CONDICAO: Paciente cadastrado e gerado um ID." style="text;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="W6IbWmLAx6LdykrJJUCI-1">
+          <mxGeometry x="40" y="80" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W6IbWmLAx6LdykrJJUCI-5" value="iniciarInternaçao&lt;br&gt;OPERAÇAO: iniciarInternação()&lt;br&gt;REFERENCIAS CRUZADAS: Caso de uso: buscarPaciente.&lt;br&gt;PRE-CONDICOES: Quarto de UTI disponivel.&lt;br&gt;POS-CONDICAO: Paciente internado na UTI." style="text;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="W6IbWmLAx6LdykrJJUCI-1">
+          <mxGeometry x="40" y="200" width="550" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W6IbWmLAx6LdykrJJUCI-6" value="iniciarAgendamento&lt;br&gt;OPERAÇAO: iniciarAngendamento()&lt;br&gt;REFERENCIAS CRUZADAS: Caso de uso: buscarPaciente.&lt;br&gt;PRE-CONDICOES: Disponibilidade da medicação.&lt;br&gt;POS-CONDICAO: Agendamento da medicação realizado com sucesso." style="text;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="W6IbWmLAx6LdykrJJUCI-1">
+          <mxGeometry x="40" y="320" width="550" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
